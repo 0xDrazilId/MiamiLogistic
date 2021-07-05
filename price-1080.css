@@ -1,0 +1,170 @@
+#price_main{
+   position: relative; 
+   width: 100%;
+   background: linear-gradient(180deg, rgba(105, 183, 227, 0.78) 0%, rgba(201, 231, 203, 0) 100%);
+}
+
+.block_header_main{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 72px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding-top: 110px;
+    text-align: center;
+}
+
+#gazel_img{
+    width: 100%;
+
+}
+
+#price_blocks{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-bottom: 50px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(242, 153, 74, 0.65) 100%);
+}
+
+#price_blocks_container{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.price_block_arrow{
+    height: 90px;
+    width: 90px;  
+    margin: 30px;  
+    padding-top: 50px;
+}
+
+#price_sub{
+    position: relative;
+    top: 0;
+    margin: 75px auto 0px auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+#price_sub > p{
+    font-weight: 400;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    line-break: normal;
+    line-height: 200%;
+    font-size: 24px;
+}
+
+
+/*zayavka here */
+#zayavka{
+    position: relative;
+    top: 0;
+    width: 100%;
+    min-height: 1000px;
+}
+
+.zayavka_header{
+    position: relative;
+    left: 60px;
+    top: 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 64px;
+    color: #656565;
+    text-transform: uppercase;
+    max-width: 40%;
+    margin-bottom: 70px;
+}
+
+.zayavka_h2{
+    position: relative;
+    left: 60px;
+    top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    color: #656565;
+    text-transform: uppercase;
+    max-width: 30%;
+}
+
+.zayavka_form{
+    position: absolute;
+    right: 0;
+    top: 0px;
+    background: url("img/zayavka/form_bg.png") no-repeat left top;
+    background-size: 100% 100%;
+    width: 60%;
+    height: 1000px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.zayavka_title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    color: #fff;
+    width: 440px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.zayavka_textinput {
+    width: 400px;
+    height: 70px;
+    border-radius: 10px;
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    color: #575757;
+    font-size: 36px;
+}
+
+.zayavka_button{
+    width: 440px;
+    height: 80px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: var(--main-green);
+    border-radius: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 75px;
+    text-align: center;
+    color: #fff;
+    margin-top: 33px;
+    box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    margin-bottom: 70px;
+}
+/*end of zayavka
+
+
+input text - >
+
+
+*/
