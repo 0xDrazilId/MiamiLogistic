@@ -317,12 +317,6 @@ body{
 
 /*SLIDER */
 
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
 #block-for-slider {
     width: 70%;
     margin: 0 auto;

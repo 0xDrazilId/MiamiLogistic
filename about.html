@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main-1080.css">
+    <link rel="stylesheet" href="about-1080.css">
+    <link rel="stylesheet" href="main-720.css">
+    <link rel="stylesheet" href="main-480.css">
+    <title>Miami Logostics | Грузоперевозки и переезд в Самаре</title>
+</head>
+<body>
+    <div class="menu">
+        <a href="index.html"><img src="img/logo.png" alt="" class="logo"></a>
+        <div class="menu_container">
+            <a href="price.html" class="menu_item">Прайс</a>
+            <a href="about.html" class="menu_item">О нас</a>
+            <a href="uslugi.html" class="menu_item">Услуги</a>
+            <a href="contacts.html" class="menu_item">Контакты</a>
+        </div>
+    </div>
+
+    <div class="about-main">
+        <div class="about-main-bg"></div>
+        <div class="flex-container">
+            <div class="h1-container">
+                <h1 id="about-main-h1">
+                Заголовок<br>Номер 1
+                </h1>
+                <h2 id="about-main-h2">
+                подзаголовок<br>В три три три<br>строчки
+                </h2>
+            </div>
+            <div class="slider-container">
+                <!-- SLIDER -->
+                <div id="block-for-slider">
+                    <div id="viewport">
+                        <ul id="slidewrapper">
+                            <li class="slide"><img src="img/slider-about/1.png" alt="1" class="slide-img"></li>
+                            <li class="slide"><img src="img/slider-about/1.png" alt="2" class="slide-img"></li>
+                            <li class="slide"><img src="img/slider-about/1.png" alt="3" class="slide-img"></li>
+                            <li class="slide"><img src="img/slider-about/1.png" alt="4" class="slide-img"></li>                    
+                            <li class="slide"><img src="img/slider-about/1.png" alt="1" class="slide-img"></li>
+                            <li class="slide"><img src="img/slider-about/1.png" alt="2" class="slide-img"></li>
+                            <li class="slide"><img src="img/slider-about/1.png" alt="3" class="slide-img"></li>
+                            <li class="slide"><img src="img/slider-about/1.png" alt="4" class="slide-img"></li>                    
+                        </ul>
+                    </div>
+                    <div id="prev-next-btns">
+                        <div id="prev-btn"></div>
+                        <div id="next-btn"></div>
+                    </div>
+                    <img src="img/LINES.png" alt="" class="lines" id="lines_main">     
+                    <img src="img/CIRCLES.png" class = "circles" alt="" id="circles2"> 
+                    <img src="img/CIRCLES.png" class = "circles" alt="" id="circles3"> 
+                </div>
+                <!-- end of SLIDER -->
+            </div>
+        </div>
+        <img src="img/CIRCLES2.png" class = "circles" alt="" id="circles3"> 
+        <img src="img/CIRCLES.png" class = "circles" alt="" id="circles_price"> 
+    </div>
+
+    <div class="about-video">
+        <div class="flex-container">
+            <div class="video-container">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/XafW4d9XfSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 20px;"></iframe>
+            </div>
+            <div class="h1-container">
+                <h1 id="about-main-h1">
+                Посмотрите видео<br>о нашей работе
+                </h1>
+                <h2 id="about-main-h2">
+                подзаголовок<br>В три три три<br>строчки
+                </h2>
+            </div>
+        </div>
+        <img src="img/CIRCLES.png" class = "circles" alt="" id="circles2"> 
+        <img src="img/CIRCLES.png" class = "circles" alt="" id="circles3">
+    </div>
+
+    <div class="footer">
+        <div class="menu_footer">
+            <a href="price.html" class="menu_item menu_item_footer">Прайс</a>
+            <a href="about.html" class="menu_item menu_item_footer">О нас</a>
+            <a href="uslugi.html" class="menu_item menu_item_footer">Услуги</a>
+            <a href="contacts.html" class="menu_item menu_item_footer">Контакты</a>
+        </div>
+
+        <div class="footer_center">
+            <a href="index.html"><img src="img/logo.png" alt="" class="footer_logo"></a>
+            <p class="footer_logo_desc">
+                Грузоперевозки и переезд<br>по Самаре и России
+            </p>
+            <form action="" class="footer_form">
+                <input type="text" class="input_text" placeholder="+7 ( ___ ) ___ - __ - __">
+                <div class="footer_button">Обратный звонок</div>
+            </form>
+        </div>
+
+        <div class="footer_info">
+            443092, г. Самара, ул. Победы, д. 9 кв.32<br><br>
+            +7 (937) 174-9000<br>
+            +7 (929) 174-9000<br><br>
+            ИП Христов К.М.<br>
+            ИНН: 631802459702<br>
+            ОГРНИП: 320631300065279<br><br>
+            <p class="politics">Политика конфиденциальности</p>
+        </div>
+
+        <div class="footer_sub">
+            ООО “Miami Logistic” (R) 2021
+            <a href="https://taplink.cc/dfsff" target="_blank">разработка сайта - #ferafdesign</a>
+        </div>
+    </div>
+
+
+    
+    <script src="scripts/jquery-3.6.0.min.js"></script>
+    <script src="scripts/common.js"></script>
+    <script type="text/javascript">
+        var slideNow = 1;
+        var slideCount = $('#slidewrapper').children().length;
+        var slideInterval = 6000;
+        var navBtnId = 0;
+        var translateWidth = 0;
+
+        $(document).ready(function() {
+            var switchInterval = setInterval(nextSlide, slideInterval);
+
+            $('#viewport').hover(function() {
+                clearInterval(switchInterval);
+            }, function() {
+                switchInterval = setInterval(nextSlide, slideInterval);
+            });
+
+            $('#next-btn').click(function() {
+                nextSlide();
+            });
+
+            $('#prev-btn').click(function() {
+                prevSlide();
+            });
+
+            $('.slide-nav-btn').click(function() {
+                navBtnId = $(this).index();
+
+                if (navBtnId + 1 != slideNow) {
+                    translateWidth = -$('#viewport').width() * (navBtnId);
+                    $('#slidewrapper').css({
+                        'transform': 'translate(' + translateWidth + 'px, 0)',
+                        '-webkit-transform': 'translate(' + translateWidth + 'px, 0)',
+                        '-ms-transform': 'translate(' + translateWidth + 'px, 0)',
+                    });
+                    slideNow = navBtnId + 1;
+                }
+            });
+        });
+
+
+        function nextSlide() {
+            if (slideNow == slideCount || slideNow <= 0 || slideNow > slideCount) {
+                $('#slidewrapper').css('transform', 'translate(0, 0)');
+                slideNow = 1;
+            } else {
+                translateWidth = -$('#viewport').width() * (slideNow);
+                $('#slidewrapper').css({
+                    'transform': 'translate(' + translateWidth + 'px, 0)',
+                    '-webkit-transform': 'translate(' + translateWidth + 'px, 0)',
+                    '-ms-transform': 'translate(' + translateWidth + 'px, 0)',
+                });
+                slideNow++;
+            }
+        }
+
+        function prevSlide() {
+            if (slideNow == 1 || slideNow <= 0 || slideNow > slideCount) {
+                translateWidth = -$('#viewport').width() * (slideCount - 1);
+                $('#slidewrapper').css({
+                    'transform': 'translate(' + translateWidth + 'px, 0)',
+                    '-webkit-transform': 'translate(' + translateWidth + 'px, 0)',
+                    '-ms-transform': 'translate(' + translateWidth + 'px, 0)',
+                });
+                slideNow = slideCount;
+            } else {
+                translateWidth = -$('#viewport').width() * (slideNow - 2);
+                $('#slidewrapper').css({
+                    'transform': 'translate(' + translateWidth + 'px, 0)',
+                    '-webkit-transform': 'translate(' + translateWidth + 'px, 0)',
+                    '-ms-transform': 'translate(' + translateWidth + 'px, 0)',
+                });
+                slideNow--;
+            }
+        }
+
+    </script>
+</body>
+</html>
