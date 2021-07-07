@@ -5,8 +5,9 @@
 }
 
 .about-video{
-    background-color: var(--main-blue);
+    background-color: #D2EFFF;
     color: white;
+    height: 700px;
 }
 
 .about-main-bg{
@@ -23,9 +24,11 @@
 
 .video-container{    
     width: 50%;
-    height: 720px;
+    height: 520px;
     border-radius: 50px;
     padding: 50px;
+    top:50%;
+    /* transform: translateY(-50%); */
 }
 
 #about-main-h1{
@@ -119,12 +122,11 @@
 }
 
 #prev-btn {
-    left: 10px;
-    background: url('../img/left_arrow_btn.png');    
+    background: url('../img/left_arrow_btn.png'); 
+    height: 72px;   
 }
 
 #next-btn {
-    right: 10px;
     background: url('../img/right_arrow_btn.png');
 }
 
@@ -142,3 +144,77 @@
     padding-bottom: 50px;
 }
 /*END OF SLIDER */
+
+#squad{
+    width: 100%;
+    background: linear-gradient(180deg, rgba(103, 242, 167, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+    padding-bottom: 80px;
+}
+
+.header_squad{
+    font-weight: 700;
+    color: var(--main-orange);
+    margin: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.squad-flex-container{
+    position: relative;
+    top: 0px;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;    
+}
+
+.squad-card{
+    width: 313px;
+    height: 412px;
+    border-radius: 27px;  
+    overflow: hidden;  
+    margin-top: 30px;
+}
+
+#squad-card-1, #squad-card-2, #squad-card-3 {  /*DIVIDE IT*/
+    background: url('img/squad/1.png') no-repeat center center;
+    background-size: cover;
+}
+
+.squad-text-container{
+    position: absolute;
+    bottom: 15px;
+    margin: 0 auto;
+    width: 283px;
+    max-width: 100%;
+    height: 40%;
+    word-wrap: break-word;
+    text-align: center;
+    padding: 0px 15px;
+}
+
+.squad-card-h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 36px;
+}
+
+.squad-card-h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: var(--main-orange);
+    font-size: 18px;
+    padding-bottom: 20px;
+    padding-top: 8px;
+}
+
+.squad-card-p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ffffff9a;
+    font-size: 13px;
+    text-align: justify;
+    padding: 5px;
+}
