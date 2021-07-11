@@ -123,9 +123,9 @@ body{
 #screen{
     position: relative;
     width: 100vw;
-    height: auto;
+    height: 100vh;
     background-color: rgb(85, 85, 85);
-    overflow: hidden;
+    overflow-y: hidden;
 }
 
 #screen > video{
@@ -248,8 +248,8 @@ body{
 }
 
 #block_header_adv{
-    color: #fff;
-    padding-top: 80px;
+    color: #fff;    
+    font-weight: 700;
 }
 
 #adv_container{
@@ -279,6 +279,36 @@ body{
     padding-right: 25px;
 }
 
+#adv_block_1{
+    background: url("img/adv_icons/bg2.png") no-repeat center center;
+    background-size: cover;
+}
+
+#adv_block_2{
+    background: url("img/adv_icons/bg1.png") no-repeat center center;
+    background-size: cover;
+}
+
+#adv_block_3{
+    background: url("img/adv_icons/bg3.png") no-repeat center center;
+    background-size: cover;
+}
+
+#adv_block_4{
+    background: url("img/adv_icons/bg4.png") no-repeat center center;
+    background-size: cover;
+}
+
+#adv_block_5{
+    background: url("img/adv_icons/bg5.png") no-repeat center center;
+    background-size: cover;
+}
+
+#adv_block_6{
+    background: url("img/adv_icons/bg6.png") no-repeat center center;
+    background-size: cover;
+}
+
 .adv_block_img{
     position: relative;
     top: 40%;
@@ -292,15 +322,27 @@ body{
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
     text-align: center;
     line-height: 140%;
+    font-weight: 600;
 }
 
-#adv_text_exception{
-    bottom: 5px;
+.adv_block_ol{
+    position: absolute;
+    bottom: 25px;
+    left: 13%;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 18px; 
+    text-align: left; 
+    color: #d4d4d4;
+    font-weight: 400;
+}
+
+#adv_text_exception2{
+    bottom: 30%;
 }
 
 #notice_main{
@@ -376,12 +418,12 @@ body{
 
 #prev-btn {
     left: 80px;
-    background: url('../img/left_arrow.png');
+    background: url('img/left_arrow.png');
 }
 
 #next-btn {
     right: 80px;
-    background: url('../img/right_arrow.png');
+    background: url('img/right_arrow.png');
 }
 
 #partners_container{

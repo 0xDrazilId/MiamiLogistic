@@ -85,26 +85,26 @@
 .zayavka_header{
     position: relative;
     left: 60px;
-    top: 55px;
+    top: 75px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-size: 64px;
     color: #656565;
     text-transform: uppercase;
-    max-width: 40%;
+    max-width: 80%;
     margin-bottom: 70px;
 }
 
 .zayavka_h2{
     position: relative;
     left: 60px;
-    top: 20px;
+    top: 80px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 28px;
+    font-weight: 400;
+    font-size: 36px;
     color: #656565;
     text-transform: uppercase;
-    max-width: 30%;
+    max-width: 70%;
 }
 
 .zayavka_bg{
@@ -180,8 +180,8 @@
     bottom: 0px;
     width: auto;
     min-width: 605px;
-    height: 150px;
-    background-color: var(--main-blue);
+    height: 130px;
+    background-color: #9dd0ece0;
     box-shadow: 0px -8px 25px rgba(0, 0, 0, 0.25);
     left: 50%;
     transform: translateX(-50%);
@@ -191,6 +191,7 @@
     font-weight: 600;
     font-size: 22px;
     text-align: center;
+    padding-top: 18px;
 }
 
 .zayavka_description_sub_container{
@@ -203,6 +204,10 @@
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
+}
+
+.zayavka_phone_img{
+    height: 54px;
 }
 
 .zayavka_phone_number{
@@ -218,12 +223,6 @@
     flex-flow: row wrap;
     justify-content: space-between;
 }
-
-@media screen and (min-width: 1100px) {
-    .zayavka_container_one {
-        flex-flow: column wrap;
-    }
-  } /*НЕ РАБОТАЕТ СУКА НИХУЯ БЛЯТЬ СУКА*/
 
 .zayavka_description_sub_phone{
     margin-right: 25px;
