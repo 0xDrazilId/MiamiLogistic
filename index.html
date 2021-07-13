@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main-1080.css">
-    <link rel="stylesheet" href="main-720.css">
+    <link rel="stylesheet" media="screen and (max-width: 1279px)" href="main-720.css">
     <link rel="stylesheet" href="main-480.css">
     <title>Miami Logostics | Грузоперевозки и переезд в Самаре</title>
 </head>
 <body>
     <div class="menu">
         <a href="index.html"><img src="img/logo.png" alt="" class="logo"></a>
+        <div class="menu_toggle"></div>
+        <div class="menu_cross"></div>
         <div class="menu_container">
             <a href="price.html" class="menu_item">Прайс</a>
             <a href="about.html" class="menu_item">О нас</a>
@@ -20,7 +22,8 @@
         </div>
     </div>
 
-    <div id="screen">        
+    <div id="screen"> 
+            <div id="screen_img"></div>    
             <video style="width:100vw;" autoplay loop>
                 <source src="img/video.mp4" type="video/mp4">                
             </video>
@@ -57,7 +60,6 @@
         <div id="advantages2">            
             <div class="block_header" id="block_header_adv">Наши преимущества</div>  
             <div id="adv_container">
-                <div id="adv_container2">
                     <div class="adv_block" id="adv_block_1">
                         <!-- <img src="img/adv_icons/1.svg" alt="" class="adv_block_img"> -->
                         <p class="adv_block_text">Индивидуальный подход к каждому заказчику</p>
@@ -75,8 +77,6 @@
                         <!-- <img src="img/adv_icons/3.svg" alt="" class="adv_block_img"> -->
                         <p class="adv_block_text">Предоставление заказчику<br>полного пакета документов<br>на ТС и экипаж</p>
                     </div>
-                </div>
-                <div id="adv_container2">
                     <div class="adv_block" id="adv_block_4">
                         <!-- <img src="img/adv_icons/4.svg" alt="" class="adv_block_img"> -->
                         <p class="adv_block_text">Документальное оформление<br>договора-заявки</p>
@@ -95,7 +95,6 @@
                         <!-- <img src="img/adv_icons/6.svg" alt="" class="adv_block_img"> -->
                         <p class="adv_block_text">Гарантия неизменности стоимости<br>после заключения сделки*</p>
                     </div>
-                </div>
             </div>  
             <div id="notice_main">
                 * Если заказчиком предоставлены достоверные данные по грузу и соответствующие габариты
@@ -105,7 +104,7 @@
         </div>
 
         <div id="review">
-            <div class="block_header">Отзывы</div>
+            <div class="block_header" id="header_partners">Отзывы</div>
             <!-- SLIDER -->
             <div id="block-for-slider">
                 <div id="viewport">
@@ -130,7 +129,7 @@
             </div>
             <!-- end of SLIDER -->
 
-            <div class="block_header">Наши партнёры</div>
+            <div class="block_header" id="header_partners">Наши партнёры</div>
             <div id="partners_container">
                 <a href="#"><img src="img/partners/1.png" alt=""></a>
                 <a href="#"><img src="img/partners/2.png" alt=""></a>

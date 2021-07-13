@@ -1,0 +1,395 @@
+.lines{
+    display: none;
+}
+
+.menu{
+    position: fixed;
+    background-color: rgba(0, 0, 0, .4);
+    height: 80px;
+}
+
+#screen_header{
+    font-size: 36px;
+    left: 15px;
+}
+
+#button_screen{
+    font-size: 18px;
+    width: 300px;
+    height: 60px;
+    line-height: 60px;
+}
+
+#screen_img{
+    display: block;
+}
+
+.menu_container{
+    display: none;
+    /*    display: flex;*/
+    position: absolute;
+    width: 100%;
+    right: 0px;
+    top: 100vh;
+    transform: translateY(-100%);
+    border-radius: 25px 25px 0px  0px;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 24px;    
+    color: #000;
+    background-color: #fff;
+}
+
+.menu_item{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    line-height: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 24px;    
+}
+
+.menu_toggle{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url("img/menu.svg") no-repeat center center;
+    background-size: 50%;
+    background-color: rgb(158, 158, 158);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.menu_cross{
+    display: none;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url("img/cross.svg") no-repeat center center;
+    background-size: 50%;
+    background-color: rgb(158, 158, 158);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.circles{
+    height: 80px;
+}
+
+/* #circles2{
+    display: none;
+} */
+
+.block_header{
+    font-size: 36px;
+    font-weight: 400;
+}
+
+#graph_container{
+    width: 90%;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.graphs{
+    height: 120px;
+    width: 120px;
+    background-size: contain;
+    background-size: cover;
+}
+
+#graph1{
+    background: url('img/GRAPH/1.png') no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+#graph2{
+    background: url('img/GRAPH/2.png') no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+#graph3{
+    background: url('img/GRAPH/3.png') no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+
+#graph4{
+    background: url('img/GRAPH/4.png') no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+
+.graph_num{
+    font-weight: 600;
+    font-size: 24px; 
+    margin-top: 25px;
+}
+
+.graph_num > font{
+    font-size: 22px; !important
+}
+
+.graph_text{
+    font-weight: 400;
+    font-size: 13px;
+}
+
+#adv_container{
+    width: 95%;
+}
+
+.adv_block{
+    transition: .5s;
+}
+
+#notice_main{
+    width: 80%;
+    margin: 18px auto;
+}
+
+#prev-next-btns{
+    display: none;
+}
+
+
+/*FOOTER  -  NAHUI*/
+
+.footer{
+    justify-content: center;
+    padding-top: 20px
+}
+
+.menu_footer, .footer_logo, .footer_logo_desc, .footer_form{
+    display: none;
+}
+
+.footer_info{
+    text-align: center;
+    margin: 30px auto;
+}
+
+.footer_sub{
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+}
+
+.footer_sub > a{
+    padding-left: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* THANK YOU SO MUCH  */
+
+
+
+/* PRICE PAGE */
+
+.block_header_main{
+    font-size: 32px;
+}
+
+#price_blocks_container{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.price_block_arrow{
+    padding-top: 0px;
+    padding: 0px 101px;
+    transform: rotate(90deg);
+    margin: 0px;  
+}
+
+
+#zayavka{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    z-index: 0;
+}
+
+
+.zayavka_container_one{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.zayavka_container_two{
+}
+
+.zayavka_bg{
+    width: 100%;
+    position: relative;
+    background: linear-gradient(0deg, #F2C367, #E8917E);
+    text-align: right;
+    padding-bottom: 153px;
+}
+
+.zayavka_form{
+    width: 100%;
+    position: relative;
+    width: auto;  
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+.zayavka_header{
+    left: 0;
+    top: 30px;
+    position: relative;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    color: #656565;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    max-width: 95%;
+    text-align: center;
+}
+
+.zayavka_h2{
+    position: relative;
+    left: 0px;
+    top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #656565;
+    text-transform: uppercase;
+    max-width: 95%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.zayavka_title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    color: #fff;
+    width: 290px;
+    text-align: left;
+    font-size: 28px;
+}
+
+.zayavka_textinput{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    color: #575757;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.zayavka_button{
+    width: 290px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: var(--main-green);
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 70px;
+    margin-bottom: 70px;
+}
+
+.zayavka_description{
+    padding: 20px;
+    min-width: 300px;
+    color: rgb(28, 38, 134);
+}
+
+.zayavka_description_sub_container{
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.zayavka_phone_img{
+    height: 32px;
+}
+
+.click-click{
+    display: none;
+}
+
+#price_sub{
+    position: relative;
+    top: 0;
+    margin: 45px auto 35px auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: rgb(0, 0, 0);    
+    line-height: 140%;
+    text-align: justify;
+}
+
+#price_sub > p{
+    font-weight: 400;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    line-break: normal;
+    line-height: 180%;
+    font-size: 18px;
+    text-align: center;
+}
+
+#partners_container{
+    top: 0px;
+}
+
+#partners_container > a > img{
+    width: 80px;
+    height: 80px;
+}
+
+#header_partners{
+    margin: 20px auto;
+    color: rgb(48, 48, 48);
+    font-weight: 300;
+}
+
+#block-for-slider{
+    margin-top: 0px;
+}
