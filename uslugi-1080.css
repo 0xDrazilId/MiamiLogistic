@@ -6,8 +6,15 @@
     background-size: contain;
 }
 
-.bg_main_usl{
+.zayavka_bg_usl{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: url("img/zayavka/form_bg.png") no-repeat left top;
+    background-size: cover;
+    width: 60%;
     height: 100vh;
+    text-align: right;
 }
 
 .main_usligu_h1{
