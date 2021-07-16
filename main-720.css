@@ -727,3 +727,21 @@
     width: 100px;
     height: 100px;
 }
+
+/*ВОЗМОЖНО ВРЕМЕННОЕ РЕШЕНИЕ ДАЛЕЕ*/
+
+.uslugi_list{
+    display: none;
+}
+
+#uslugi_mobile_fix{
+    display: block;
+    padding-left: 25px;
+    padding-top: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.6em;
+    color: rgb(53, 53, 53);
+    list-style-type: circle;
+}
